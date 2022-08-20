@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="top"
+	android:orientation="vertical"
+	android:background="#bbbbaa">
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+			<Button
+				android:text="frag 1 view 1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/btn1"/>
+
+			<Button
+				android:text="frag 1 view 2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/btn2"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+			<Button
+				android:text="frag 2 view 1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/btn3"/>
+
+			<Button
+				android:text="frag 2 view 2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/btn4"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<HorizontalScrollView
+		android:layout_width="match_parent"
+		android:layout_height="80dp">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:id="@+id/mtv"/>
+
+	</HorizontalScrollView>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="120dp"
+		android:background="#bbddbb">
+
+		<FrameLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/mainFrameLayout1"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="120dp"
+		android:background="#bbddbb"
+		android:layout_marginTop="8dp">
+
+		<FrameLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/mainFrameLayout2"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+
